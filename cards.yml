@@ -11,6 +11,8 @@ cards:
     - (915) 382-1932
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true

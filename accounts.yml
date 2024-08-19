@@ -11,6 +11,8 @@ accounts:
     - (555) 523-1345
     -
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true

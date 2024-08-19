@@ -11,6 +11,8 @@ loans:
     - (546) 764-8934
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
