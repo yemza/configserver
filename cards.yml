@@ -2,10 +2,17 @@ build:
   version: "3.0"
 
 cards:
-  message: "Welcome to EazyBank cards related local APIssssss "
+  message: "Welcome to EazyBank cards related local APIs "
   contactDetails:
     name: "Dragos Lech - Developer"
     email: "dragos@eazybank.com"
   onCallSupport:
     - (412) 419-3491
     - (915) 382-1932
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
